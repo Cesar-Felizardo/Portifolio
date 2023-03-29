@@ -7,13 +7,21 @@ body{
 }
 
 header {
-    background: orange;
+    background: #0D1117;
     min-height: 30vh;
+    color: white;
+    padding: 20px 40px;
+}
+header h1 {
+    margin: 20px 0px;
+}
+.subHeader {
+    line-height: 22px;
 }
 main {
     min-width: 100%;
     min-height: 100vh;
-    background: rgb(238, 24, 24);
+    background: #0D1117;
 }
 section {
     min-width: 100%;
@@ -28,13 +36,29 @@ section .cards {
     width: 380px;
     height: 280px;
     padding: 10px;
-    margin: 5px 0px;
-    background: rgb(24, 195, 238);
+    margin: 20px 0px;
+    border-radius: 8px;
+    color: white;
+    line-height: 21px;
+    background: #161B22;
 }
 .cards h2 {
     margin-bottom: 30px;
 }
 footer{
     height: 80px;
-    background: #000
+    background: #161B22;
+    color: white;
+}
+footer div a {
+    color: white;
+    text-decoration: none;
+}
+footer div {
+    line-height: 22px;
+    padding: 0px 20px;
+}
+footer div a {
+    color: white;
+    text-decoration: none;
 }
