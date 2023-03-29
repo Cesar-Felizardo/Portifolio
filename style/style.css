@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+
+header {
+    background: orange;
+    min-height: 30vh;
+}
+main {
+    min-width: 100%;
+    min-height: 100vh;
+    background: rgb(238, 24, 24);
+}
+section {
+    min-width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: transparent;
+}
+section .cards {
+    width: 380px;
+    height: 280px;
+    padding: 10px;
+    margin: 5px 0px;
+    background: rgb(24, 195, 238);
+}
+.cards h2 {
+    margin-bottom: 30px;
+}
+footer{
+    height: 80px;
+    background: #000
+}
