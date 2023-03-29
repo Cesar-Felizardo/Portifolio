@@ -3,17 +3,31 @@
     padding: 0;
 }
 body{
-    
+
 }
 
 header {
+    display: flex;
     background: #0D1117;
-    min-height: 30vh;
+    min-height: 90vh;
     color: white;
     padding: 20px 40px;
 }
+.div1Header {
+    width: 50%;
+    background: #0D1117;
+    padding: 10px;
+}
+.div2Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background: #0D1117;
+    padding: 10px;
+}
 header h1 {
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 .subHeader {
     line-height: 22px;
