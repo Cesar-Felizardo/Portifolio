@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-
+    
 }
 
 header {
@@ -33,7 +33,7 @@ section {
     background: transparent;
 }
 section .cards {
-    width: 380px;
+    width: 350px;
     height: 280px;
     padding: 10px;
     margin: 20px 0px;
