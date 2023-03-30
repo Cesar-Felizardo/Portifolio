@@ -33,9 +33,11 @@ header {
 }
 header h1 {
     margin-bottom: 20px;
+    text-align: left;
 }
 .subHeader {
     line-height: 22px;
+    text-align: left;
 }
 main {
     min-height: 100vh;
