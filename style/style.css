@@ -60,7 +60,7 @@ section {
 }
 section .cards {
     width: 350px;
-    height: 280px;
+    height: auto;
     padding: 10px;
     margin: 20px 0px;
     border-radius: 8px;
@@ -144,6 +144,7 @@ footer div a {
     .div2Header {
         display: none;
     }
+
     @media screen and (max-width: 370px) {
 
         .photoProfile {
@@ -153,14 +154,8 @@ footer div a {
             border-radius: 500px;
             margin-bottom: 20px;
         }
-    
         header {
-            display: flex;
-            background: #0D1117;
-            flex-direction: column;
-            align-items: center;
-            min-height: 90vh;
-            color: white;
+            font-size: 15px;
             padding: 0px 10px;
             width: 92%;
         }
@@ -171,5 +166,5 @@ footer div a {
         .div2Header {
             display: none;
         }
+    }
 }
-
