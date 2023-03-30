@@ -65,6 +65,7 @@ section .cards {
     color: white;
     line-height: 21px;
     background: #161B22;
+    text-align: justify;
 }
 .cards h2 {
     margin-bottom: 30px;
@@ -140,9 +141,6 @@ footer div a {
     }
     .div2Header {
         display: none;
-    }
-    .cards {
-        text-align: justify;
     }
 }
 
