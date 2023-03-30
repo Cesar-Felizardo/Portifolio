@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: #1d2530 1px solid;
 }
 body{
     max-width: 1200px;
@@ -28,6 +29,7 @@ header {
     width: 50%;
     background: #0D1117;
     padding: 10px;
+    color: #1d2530;
 }
 header h1 {
     margin-bottom: 20px;
@@ -85,19 +87,31 @@ footer div a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 752px) {
+
+    .photoProfile {
+        border: #1d2530 1px solid;
+        width: 280px;
+        height: 280px;
+        border-radius: 500px;
+        margin-bottom: 20px;
+    }
 
     header {
         display: flex;
         background: #0D1117;
+        flex-direction: column;
+        align-items: center;
         min-height: 90vh;
         color: white;
         padding: 20px 40px;
     }
     .div1Header {
+        text-align: center;
         width: 100%;
     }
     .div2Header {
         display: none;
     }
 }
+
