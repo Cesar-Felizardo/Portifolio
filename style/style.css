@@ -91,8 +91,8 @@ footer div a {
 
     .photoProfile {
         border: #1d2530 1px solid;
-        width: 280px;
-        height: 280px;
+        width: 240px;
+        height: 240px;
         border-radius: 500px;
         margin-bottom: 20px;
     }
@@ -112,6 +112,37 @@ footer div a {
     }
     .div2Header {
         display: none;
+    }
+}
+
+@media screen and (max-width: 407px) {
+
+    .photoProfile {
+        border: #252d3a 1px solid;
+        width: 240px;
+        height: 240px;
+        border-radius: 500px;
+        margin-bottom: 20px;
+    }
+
+    header {
+        display: flex;
+        background: #0D1117;
+        flex-direction: column;
+        align-items: center;
+        min-height: 90vh;
+        color: white;
+        padding: 20px 20px;
+    }
+    .div1Header {
+        text-align: center;
+        width: 100%;
+    }
+    .div2Header {
+        display: none;
+    }
+    .cards {
+        text-align: justify;
     }
 }
 
